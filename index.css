@@ -1,0 +1,15 @@
+/* Custom CSS for glowing text effect */
+.glow-text {
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 1);
+    animation: glow-animation 1.5s ease-in-out infinite alternate;
+}
+
+/* Animation for glowing effect */
+@keyframes glow-animation {
+    0% {
+        text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.6), 0 0 15px rgba(0, 255, 255, 0.8), 0 0 20px rgba(0, 255, 255, 1);
+    }
+    100% {
+        text-shadow: 0 0 15px rgba(255, 255, 255, 0.8), 0 0 30px rgba(255, 255, 255, 0.6), 0 0 45px rgba(0, 255, 255, 0.8), 0 0 60px rgba(0, 255, 255, 1);
+    }
+}
