@@ -14,15 +14,24 @@
     <nav class="bg-gray-900 text-gray-300 shadow-md sticky top-0 z-50">
         <div class="max-w-screen-xl mx-auto p-4 flex justify-between items-center">
             <a href="#" class="flex items-center space-x-4 text-2xl font-semibold text-white hover:text-cyan-400">
-                <img src="image/spy.gif" alt="Logo" class="h-12 w-12 rounded-full">
-                <span>Thanapong Changpukwong</span>
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAtOp_CF9YKx4FU3DKYmJYnJxFncEpaqV4KaqYk01Fya4Jdl4-DgyKoYEIgwifCoqDbS4&usqp=CAU" alt="Logo" class="h-12 w-12 rounded-full">
+                <span>Arxn16</span>
             </a>
             <ul class="hidden md:flex space-x-8 font-medium">
-                <li><a href="#about" class="text-white hover:text-cyan-400">About</a></li>
-                <li><a href="#skills" class="text-white hover:text-cyan-400">Skills</a></li>
-                <li><a href="#projects" class="text-white hover:text-cyan-400">Projects</a></li>
-                <li><a href="#contact" class="text-white hover:text-cyan-400">Contact</a></li>
+                <li>
+                    <a href="#about" class="text-white hover:text-cyan-400 hover:shadow-lg hover:scale-105 transition-all duration-300 hover:animate-glow">About</a>
+                </li>
+                <li>
+                    <a href="#skills" class="text-white hover:text-cyan-400 hover:shadow-lg hover:scale-105 transition-all duration-300 hover:animate-glow">Skills</a>
+                </li>
+                <li>
+                    <a href="#projects" class="text-white hover:text-cyan-400 hover:shadow-lg hover:scale-105 transition-all duration-300 hover:animate-glow">Projects</a>
+                </li>
+                <li>
+                    <a href="#contact" class="text-white hover:text-cyan-400 hover:shadow-lg hover:scale-105 transition-all duration-300 hover:animate-glow">Contact</a>
+                </li>
             </ul>
+
             <button class="md:hidden text-white hover:text-cyan-400" id="mobile-menu-toggle">
                 <i class="fas fa-bars"></i>
             </button>
@@ -44,15 +53,95 @@
         </div>
     </div>
 
-    
     <section id="about" class="py-20 px-6 md:px-12 bg-gray-800">
-        <div class="max-w-screen-lg mx-auto text-center">
-            <h2 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400">About Me</h2>
-            <p class="mt-4 text-lg text-gray-400">This is a brief introduction about yourself. You can add information like your background, education, and interests.</p>
+        <div class="max-w-screen-lg mx-auto text-center bg-gray-900 rounded-3xl shadow-2xl p-8 transform transition-all duration-300 hover:scale-105 hover:shadow-3xl glow-box">
+            <!-- Title -->
+            <h2 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400 mb-4">
+                About Me
+            </h2>
+            
+            
+            <!-- Image with Hover Animation and Shadow -->
+            <div class="mt-8 flex justify-center">
+                <div class="w-48 h-48 md:w-64 md:h-64 relative overflow-hidden rounded-full border-8 border-gray-700 transition-all duration-300 transform hover:scale-110 hover:rotate-6 hover:shadow-2xl">
+                    <img src="./studentphoto.jpg" alt="Your Picture" class="object-cover w-full h-full transition-all duration-300" />
+                </div>
+            </div>
+
+            <!-- Name -->
+            <h3 class="mt-6 text-2xl font-semibold text-white">Thanapong Changpukwong [Arun]</h3>
+            
+            <!-- Arrow to Show More Info -->
+            <div class="mt-8">
+                <button id="showMoreBtn" class="text-cyan-400 text-3xl focus:outline-none hover:text-cyan-500">
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <!-- Small text under the arrow -->
+                <p class="mt-2 text-sm text-gray-400">Click to read more</p>
+            </div>
+
+            <!-- Hidden Additional Info (Initially Hidden) -->
+            <div id="additionalInfo" class="mt-8 hidden text-left bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-3xl shadow-2xl p-8 max-w-3xl mx-auto transition-all duration-500 border border-cyan-500/30">
+            
+            <h4 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-6 text-center">
+                Personal Information
+            </h4>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 text-gray-300">
+                <!-- Name -->
+                <div class="flex items-center space-x-3 bg-gray-800/50 p-4 rounded-xl shadow hover:shadow-cyan-500/40 transition">
+                <i class="fas fa-user text-cyan-400 text-xl"></i>
+                <p><span class="font-semibold text-cyan-300">Name:</span> Mr. Thanapong Chaengphukwong</p>
+                </div>
+
+                <!-- Age -->
+                <div class="flex items-center space-x-3 bg-gray-800/50 p-4 rounded-xl shadow hover:shadow-cyan-500/40 transition">
+                <i class="fas fa-birthday-cake text-pink-400 text-xl"></i>
+                <p><span class="font-semibold text-pink-300">Age:</span> 22</p>
+                </div>
+
+                <!-- Nationality -->
+                <div class="flex items-center space-x-3 bg-gray-800/50 p-4 rounded-xl shadow hover:shadow-cyan-500/40 transition">
+                <i class="fas fa-flag text-green-400 text-xl"></i>
+                <p><span class="font-semibold text-green-300">Nationality:</span> Thai</p>
+                </div>
+
+                <!-- Date of Birth -->
+                <div class="flex items-center space-x-3 bg-gray-800/50 p-4 rounded-xl shadow hover:shadow-cyan-500/40 transition">
+                <i class="fas fa-calendar-alt text-yellow-400 text-xl"></i>
+                <p><span class="font-semibold text-yellow-300">Date of Birth:</span> 16 March 2003</p>
+                </div>
+
+                <!-- University -->
+                <div class="flex items-center space-x-3 bg-gray-800/50 p-4 rounded-xl shadow hover:shadow-cyan-500/40 transition md:col-span-2">
+                <i class="fas fa-university text-blue-400 text-xl"></i>
+                <p><span class="font-semibold text-blue-300">University:</span> Khon Kaen University, College of Computing</p>
+                </div>
+
+                <!-- Program -->
+                <div class="flex items-center space-x-3 bg-gray-800/50 p-4 rounded-xl shadow hover:shadow-cyan-500/40 transition">
+                <i class="fas fa-book text-purple-400 text-xl"></i>
+                <p><span class="font-semibold text-purple-300">Program:</span> Bachelor of Science</p>
+                </div>
+
+                <!-- Major -->
+                <div class="flex items-center space-x-3 bg-gray-800/50 p-4 rounded-xl shadow hover:shadow-cyan-500/40 transition">
+                <i class="fas fa-laptop-code text-indigo-400 text-xl"></i>
+                <p><span class="font-semibold text-indigo-300">Major:</span> Computer Science</p>
+                </div>
+
+                <!-- GPA -->
+                <div class="flex items-center space-x-3 bg-gray-800/50 p-4 rounded-xl shadow hover:shadow-cyan-500/40 transition">
+                <i class="fas fa-graduation-cap text-cyan-400 text-xl"></i>
+                <p><span class="font-semibold text-cyan-300">GPA:</span> 2.37</p>
+                </div>
+            </div>
+            </div>
+
         </div>
     </section>
 
-   
+
     <section id="skills" class="py-20 px-6 md:px-12 bg-gray-900">
         <div class="max-w-screen-lg mx-auto text-center">
             <h2 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400">Skills</h2>
@@ -130,7 +219,7 @@
 
 
     <footer class="bg-gray-900 text-center py-4">
-        <p class="text-gray-400">© 2025 Your Name | Designed with Tailwind CSS</p>
+        <p class="text-gray-400">© 2025 Thanapong Changpukwong </p>
     </footer>
 
 
@@ -148,6 +237,25 @@
         });
     </script>
 
+
+<script>
+    // JavaScript to Toggle Show More Info
+    const showMoreBtn = document.getElementById('showMoreBtn');
+    const additionalInfo = document.getElementById('additionalInfo');
+
+    showMoreBtn.addEventListener('click', () => {
+        // Toggle the visibility of additional information
+        additionalInfo.classList.toggle('hidden');
+
+        // Change the arrow direction based on the visibility
+        if (additionalInfo.classList.contains('hidden')) {
+            showMoreBtn.innerHTML = '<i class="fas fa-chevron-down"></i>';
+        } else {
+            showMoreBtn.innerHTML = '<i class="fas fa-chevron-up"></i>';
+        }
+    });
+</script>
+
+
 </body>
 </html>
-
