@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./index.css">
-    <title>Portfolio</title>
+    <title>Thanapong Changphukwong</title>
     <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="icon" href="image/gundam.png" type="image/x-icon">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"integrity="sha512-..." crossorigin="anonymous"referrerpolicy="no-referrer" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet" />
 </head>
 <body class="bg-gray-900 text-gray-300">
 
@@ -38,7 +40,6 @@
         </div>
     </nav>
 
-   
     <div id="mobile-menu" class="md:hidden fixed inset-0 bg-black bg-opacity-50 z-40 hidden">
         <div class="flex justify-end p-4">
             <button id="mobile-menu-close" class="text-white">
@@ -55,32 +56,23 @@
 
     <section id="about" class="py-20 px-6 md:px-12 bg-gray-800">
         <div class="max-w-screen-lg mx-auto text-center bg-gray-900 rounded-3xl shadow-2xl p-8 transform transition-all duration-300 hover:scale-105 hover:shadow-3xl glow-box">
-            <!-- Title -->
             <h2 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400 mb-4">
                 About Me
             </h2>
             
-            
-            <!-- Image with Hover Animation and Shadow -->
             <div class="mt-8 flex justify-center">
                 <div class="w-48 h-48 md:w-64 md:h-64 relative overflow-hidden rounded-full border-8 border-gray-700 transition-all duration-300 transform hover:scale-110 hover:rotate-6 hover:shadow-2xl">
-                    <img src="./studentphoto.jpg" alt="Your Picture" class="object-cover w-full h-full transition-all duration-300" />
+                    <img src="./studentphoto_port.jpg" alt="Your Picture" class="object-cover w-full h-full transition-all duration-300" />
                 </div>
             </div>
-
-            <!-- Name -->
-            <h3 class="mt-6 text-2xl font-semibold text-white">Thanapong Changpukwong [Arun]</h3>
-            
-            <!-- Arrow to Show More Info -->
+            <h3 class="mt-6 text-2xl font-semibold text-white">Thanapong Changpukwong [ Arun ]</h3>
             <div class="mt-8">
                 <button id="showMoreBtn" class="text-cyan-400 text-3xl focus:outline-none hover:text-cyan-500">
                     <i class="fas fa-chevron-down"></i>
                 </button>
-                <!-- Small text under the arrow -->
                 <p class="mt-2 text-sm text-gray-400">Click to read more</p>
             </div>
 
-            <!-- Hidden Additional Info (Initially Hidden) -->
             <div id="additionalInfo" class="mt-8 hidden text-left bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-3xl shadow-2xl p-8 max-w-3xl mx-auto transition-all duration-500 border border-cyan-500/30">
             
             <h4 class="text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-500 mb-6 text-center">
@@ -115,7 +107,7 @@
                 <!-- University -->
                 <div class="flex items-center space-x-3 bg-gray-800/50 p-4 rounded-xl shadow hover:shadow-cyan-500/40 transition md:col-span-2">
                 <i class="fas fa-university text-blue-400 text-xl"></i>
-                <p><span class="font-semibold text-blue-300">University:</span> Khon Kaen University, College of Computing</p>
+                <p><span class="font-semibold text-blue-300">University:</span> Khon Kaen University | College of Computing</p>
                 </div>
 
                 <!-- Program -->
@@ -141,78 +133,312 @@
         </div>
     </section>
 
+<section id="skills" class="py-20 px-6 md:px-12 bg-gray-900">
+    <div class="max-w-screen-lg mx-auto text-center">
 
-    <section id="skills" class="py-20 px-6 md:px-12 bg-gray-900">
-        <div class="max-w-screen-lg mx-auto text-center">
-            <h2 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400">Skills</h2>
-            <ul class="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-gray-400">
-                <li class="bg-gray-700 p-6 rounded-lg text-center">HTML</li>
-                <li class="bg-gray-700 p-6 rounded-lg text-center">CSS</li>
-                <li class="bg-gray-700 p-6 rounded-lg text-center">JavaScript</li>
-                <li class="bg-gray-700 p-6 rounded-lg text-center">PHP</li>
-                <li class="bg-gray-700 p-6 rounded-lg text-center">Laravel</li>
-                <li class="bg-gray-700 p-6 rounded-lg text-center">MySQL</li>
-                <li class="bg-gray-700 p-6 rounded-lg text-center">Git</li>
-                <li class="bg-gray-700 p-6 rounded-lg text-center">Bootstrap</li>
-            </ul>
-        </div>
-    </section>
-
-    
-    <section id="projects" class="py-20 px-6 md:px-12 bg-gray-800">
-        <div class="max-w-screen-lg mx-auto text-center">
-            <h2 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400">Projects</h2>
-            <div class="mt-8 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-gray-700 p-6 rounded-lg">
-                    <h3 class="text-xl font-semibold text-white">Project 1</h3>
-                    <p class="mt-4 text-gray-400">Short description of the project.</p>
+        <!-- Skills Section -->
+        <div class="mb-16">
+            <h3 class="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400 mb-8">
+                Skills
+            </h3>
+            
+            <div class="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-gray-400">
+                <!-- HTML -->
+                <div class="bg-gray-700 p-6 rounded-lg text-center transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-r hover:from-yellow-400 hover:to-orange-500 hover:text-white hover:text-lg hover:shadow-glow">
+                    <i class="fab fa-html5 text-4xl mb-4 text-yellow-500"></i>
+                    <p>HTML</p>
                 </div>
-                <div class="bg-gray-700 p-6 rounded-lg">
-                    <h3 class="text-xl font-semibold text-white">Project 2</h3>
-                    <p class="mt-4 text-gray-400">Short description of the project.</p>
+                
+                <!-- CSS -->
+                <div class="bg-gray-700 p-6 rounded-lg text-center transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-500 hover:text-white hover:text-lg hover:shadow-glow">
+                    <i class="fab fa-css3-alt text-4xl mb-4 text-blue-500"></i>
+                    <p>CSS</p>
                 </div>
-                <div class="bg-gray-700 p-6 rounded-lg">
-                    <h3 class="text-xl font-semibold text-white">Project 3</h3>
-                    <p class="mt-4 text-gray-400">Short description of the project.</p>
+                
+                <!-- JavaScript -->
+                <div class="bg-gray-700 p-6 rounded-lg text-center transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-r hover:from-yellow-500 hover:to-green-500 hover:text-white hover:text-lg hover:shadow-glow">
+                    <i class="fab fa-js text-4xl mb-4 text-yellow-300"></i>
+                    <p>JavaScript</p>
+                </div>
+                
+                <!-- PHP -->
+                <div class="bg-gray-700 p-6 rounded-lg text-center transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 hover:text-white hover:text-lg hover:shadow-glow">
+                    <i class="fab fa-php text-4xl mb-4 text-blue-600"></i>
+                    <p>PHP</p>
+                </div>
+                
+                <!-- Laravel -->
+                <div class="bg-gray-700 p-6 rounded-lg text-center transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-r hover:from-red-500 hover:to-pink-500 hover:text-white hover:text-lg hover:shadow-glow">
+                    <i class="fab fa-laravel text-4xl mb-4 text-red-500"></i>
+                    <p>Laravel</p>
+                </div>
+                
+                <!-- MySQL -->
+                <div class="bg-gray-700 p-6 rounded-lg text-center transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-r hover:from-blue-700 hover:to-cyan-600 hover:text-white hover:text-lg hover:shadow-glow">
+                    <i class="fab fa-database text-4xl mb-4 text-blue-500"></i>
+                    <p>MySQL</p>
+                </div>
+                
+                <!-- Git -->
+                <div class="bg-gray-700 p-6 rounded-lg text-center transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-r hover:from-orange-400 hover:to-red-500 hover:text-white hover:text-lg hover:shadow-glow">
+                    <i class="fab fa-git text-4xl mb-4 text-orange-500"></i>
+                    <p>Git</p>
+                </div>
+                
+                <!-- Bootstrap -->
+                <div class="bg-gray-700 p-6 rounded-lg text-center transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-r hover:from-indigo-500 hover:to-blue-600 hover:text-white hover:text-lg hover:shadow-glow">
+                    <i class="fab fa-bootstrap text-4xl mb-4 text-indigo-500"></i>
+                    <p>Bootstrap</p>
                 </div>
             </div>
         </div>
-    </section>
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    integrity="sha512-..." crossorigin="anonymous"
-    referrerpolicy="no-referrer" />
 
+            <!-- Tools Used Section -->
+        <div>
+            <h3 class="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400 mb-8">
+                Tools Used
+            </h3>
+            
+            <div class="mt-8 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-gray-400">
+                <!-- Visual Studio Code -->
+                <div class="bg-gray-700 p-6 rounded-lg text-center transition-all duration-300 transform hover:scale-110 hover:shadow-lg hover:bg-gradient-to-r hover:from-blue-600 hover:to-purple-600 hover:text-white hover:text-lg hover:shadow-glow">
+                    <img src="https://images.seeklogo.com/logo-png/43/2/visual-studio-code-logo-png_seeklogo-433369.png" alt="VS Code" class="w-12 h-12 mb-4 mx-auto">
+                    <p>Visual Studio Code</p>
+                </div>
 
+                <!-- Git -->
+                <div class="bg-gray-700 p-6 rounded-lg text-center transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-r hover:from-orange-400 hover:to-red-500 hover:text-white hover:text-lg hover:shadow-glow">
+                    <i class="fab fa-github text-4xl mb-4 text-gray-900"></i>
+                    <p>Github</p>
+                </div>
+
+                <!-- Figma -->
+                <div class="bg-gray-700 p-6 rounded-lg text-center transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-r hover:from-red-500 hover:to-pink-500 hover:text-white hover:text-lg hover:shadow-glow">
+                    <i class="fab fa-figma text-4xl mb-4 text-purple-500"></i>
+                    <p>Figma</p>
+                </div>
+
+                <!-- Drow.io -->
+                <div class="bg-gray-700 p-6 rounded-lg text-center transition-all duration-300 transform hover:scale-110 hover:shadow-2xl hover:bg-gradient-to-r hover:from-blue-700 hover:to-green-600 hover:text-white hover:text-lg hover:shadow-glow">
+                    <i class="fas fa-project-diagram text-4xl mb-4 text-green-500"></i>
+                    <p>Drow.io</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section id="education" class="py-20 px-6 md:px-12 bg-gray-800">
+    <div class="max-w-screen-lg mx-auto text-center">
+        <h2 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400 mb-8">
+            Educational Background
+        </h2>
+
+        <div class="flex space-x-6 overflow-x-auto snap-x snap-mandatory pb-4 scrollbar-thin scrollbar-thumb-indigo-500 scrollbar-track-gray-700 transition-all duration-500">
+            <!-- Education 1 -->
+            <div class="flex-none w-64 bg-gray-800 rounded-2xl shadow-lg p-6 transform hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-cyan-500 transition-all duration-300 snap-start group">
+                <p class="font-mono font-semibold text-gray-100 mb-1 group-hover:text-indigo-300">
+                    2566
+                </p>
+                <p class="text-gray-300 font-medium mb-2 border-2 border-cyan-500 p-2 rounded-md transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-600 hover:text-white">
+                    SOFTWARE ENGINEERING
+                </p>
+               
+                <div class="mt-8">
+                    <button class="text-cyan-400 text-3xl focus:outline-none hover:text-cyan-500" onclick="toggleInfo('edu1')">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>      
+                </div>
+              
+                <div id="edu1" class="mt-8 hidden text-left bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-3xl shadow-2xl p-8 max-w-3xl mx-auto transition-all duration-500 border border-cyan-500/30">
+                    <p class="text-gray-400 text-sm">
+                        ได้ออกแบบแก้ไขเว็บไซต์ PrestaShop และเรียนรู้ Tester Website ได้เรียนรู้เครื่องมือ
+                        GitHub, Docker Hub
+                    </p>
+                </div>
+            </div>
+
+            <!-- Education 2 -->
+            <div class="flex-none w-64 bg-gray-800 rounded-2xl shadow-lg p-6 transform hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-cyan-500 transition-all duration-300 snap-start group">
+                <p class="font-mono font-semibold text-gray-100 mb-1 group-hover:text-indigo-300">
+                    2566
+                </p>
+                <p class="text-gray-300 font-medium mb-2 border-2 border-cyan-500 p-2 rounded-md transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-600 hover:text-white">
+                    MOBILE AND WEB APPLICATION DEVELOPMENT
+                </p>
+               
+                <div class="mt-8">
+                    <button class="text-cyan-400 text-3xl focus:outline-none hover:text-cyan-500" onclick="toggleInfo('edu2')">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+
+                <div id="edu2" class="mt-8 hidden text-left bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-3xl shadow-2xl p-8 max-w-3xl mx-auto transition-all duration-500 border border-cyan-500/30">
+                    <p class="text-gray-400 text-sm">
+                        ได้เรียนรู้เกี่ยวกับการสร้างแอพเกม และ เว็บไซต์ VR Web และ สร้างระบบจัดการเรียน
+                    </p>
+                </div>
+            </div>
+
+            <!-- Education 3 -->
+            <div class="flex-none w-64 bg-gray-800 rounded-2xl shadow-lg p-6 transform hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-cyan-500 transition-all duration-300 snap-start group">
+                <p class="font-mono font-semibold text-gray-100 mb-1 group-hover:text-indigo-300">
+                    2565
+                </p>
+                <p class="text-gray-300 font-medium mb-2 border-2 border-cyan-500 p-2 rounded-md transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-600 hover:text-white">
+                    WEB DESIGN TECHNOLOGIES
+                </p>
+
+                <div class="mt-8">
+                    <button class="text-cyan-400 text-3xl focus:outline-none hover:text-cyan-500" onclick="toggleInfo('edu3')">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+
+                <div id="edu3" class="mt-8 hidden text-left bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-3xl shadow-2xl p-8 max-w-3xl mx-auto transition-all duration-500 border border-cyan-500/30">
+                    <p class="text-gray-400 text-sm">
+                        เรียนรู้เกี่ยวกับการ DESIGN และออกแบบเว็บไซต์ ได้เรียนรู้ Frameworks Bootstrap
+                    </p>
+                </div>
+            </div>
+
+            <!-- Education 4 -->
+            <div class="flex-none w-64 bg-gray-800 rounded-2xl shadow-lg p-6 transform hover:scale-105 hover:shadow-2xl hover:ring-2 hover:ring-cyan-500 transition-all duration-300 snap-start group">
+                <p class="font-mono font-semibold text-gray-100 mb-1 group-hover:text-indigo-300">
+                    2564
+                </p>
+                <p class="text-gray-300 font-medium mb-2 border-2 border-cyan-500 p-2 rounded-md transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:bg-gradient-to-r hover:from-blue-500 hover:to-purple-600 hover:text-white">
+                    WEB APPLICATION DEVELOPMENT
+                </p>
+
+                <div class="mt-8">
+                    <button class="text-cyan-400 text-3xl focus:outline-none hover:text-cyan-500" onclick="toggleInfo('edu4')">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                </div>
+
+                <div id="edu4" class="mt-8 hidden text-left bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-3xl shadow-2xl p-8 max-w-3xl mx-auto transition-all duration-500 border border-cyan-500/30">
+                    <p class="text-gray-400 text-sm">
+                        เริ่มต้นศึกษาการเขียนเว็บไซต์ และ API ได้เรียนรู้ HTML, CSS, JavaScript และเครื่องมือ VS Code, Postman
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
     
+<section id="projects" class="py-20 px-6 md:px-12 bg-gray-800">
+    <div class="max-w-screen-lg mx-auto text-center">
+        <h2 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400 mb-8">
+            Projects
+        </h2>
+
+        <div class="mt-8 grid place-items-center">
+            <!-- Project Box -->
+            <div class="bg-gray-700 p-2 rounded-lg w-full max-w-md border-2 border-gray-600 transition-all duration-300 transform hover:scale-105 hover:shadow-2xl hover:border-cyan-400 hover:text-white hover:bg-gradient-to-r hover:from-gray-700 hover:to-gray-600 hover:ring-4 hover:ring-cyan-500">
+                <h3 class="text-lg font-medium text-white ">ระบบจัดการครุภัณฑ์และแจ้งซ่อม <br> Asset Management and Maintenance System</h3>
+
+                <div class="mt-8">
+                    <button class="text-cyan-400 text-3xl focus:outline-none hover:text-cyan-500" onclick="toggleInfo('project2')">
+                        <i class="fas fa-chevron-down"></i>
+                    </button>      
+                </div>
+
+                <div id="project2" class="mt-8 hidden text-left bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 rounded-3xl shadow-2xl p-8 max-w-3xl mx-auto transition-all duration-500 border border-cyan-500/30">
+                    <p class="text-gray-400 text-sm">
+                        <span class="font-semibold">Language:</span> HTML, CSS, JavaScript, PHP 
+                        <br><span class="font-semibold">Framework:</span> Laravel 11
+                        <br><span class="font-semibold">Vite Tools:</span> FontAwesome, DataTables
+                        <br><span class="font-semibold">Database:</span> MySQL
+                        <br><span class="font-semibold">Version Control:</span> Git
+                    </p>
+                    <hr class="border-gray-600 my-4">
+                    <p class="text-gray-400 text-sm">
+                        <span class="font-semibold">ระบบทั้งหมด:</span> Register, Login, Logout, Forgot Password, เปลี่ยนชื่อ, อีเมล, รหัสผ่าน
+                    </p>
+                    <hr class="border-gray-600 my-4">
+                    <p class="text-gray-400 text-sm">
+                        <span class="font-semibold">สถานะ(ปกติ):</span> นักศึกษา, TA, อาจารย์, เจ้าหน้าที่
+                        <br><span class="font-semibold">รายการครุภัณฑ์:</span> ดูได้อย่างเดียว
+                        <br><span class="font-semibold">ค้นหาครุภัณฑ์:</span> ได้
+                        <br><span class="font-semibold">ประวัติยืมครุภัณฑ์:</span> ได้
+                        <br><span class="font-semibold">รายการแจ้งซ่อม:</span> ดูได้อย่างเดียว
+                        <br><span class="font-semibold">ค้นหาประวัติการซ่อม:</span> ได้
+                        <br><span class="font-semibold">แบบฟอร์มยืมครุภัณฑ์:</span> ได้
+                    </p>
+                    <hr class="border-gray-600 my-4">
+                    <p class="text-gray-400 text-sm">
+                        <span class="font-semibold">สถานะ ช่าง:</span> 
+                        <br> รายการครุภัณฑ์ (เพิ่ม ลบ แก้ไขได้)
+                        <br> รายการแจ้งซ่อม (แก้ไขได้)
+                        <br> ดูงานซ่อมที่ตัวเองรับผิดชอบได้
+                        <br> แจ้งซ่อม
+                    </p>
+                    <hr class="border-gray-600 my-4">
+                    <p class="text-gray-400 text-sm">
+                        <span class="font-semibold">สถานะ Admin:</span>
+                        <br> ทั้งหมดของสถานะ(ช่าง) ยกเว้นดูงานซ่อมที่ตัวเองรับผิดชอบได้
+                        <br> จัดการคำร้องครุภัณฑ์
+                        <br> นำเข้าข้อมูลครุภัณฑ์ (Excel)
+                        <br> ภาพรวมระบบแจ้งซ่อม
+                        <br> จัดการข้อมูลผู้ใช้งาน
+                    </p> <br>
+                    <p>ผลงานนี้เป็นระบบภายในองค์กรซึ่งต้องใช้ VPN ในการเข้าถึง หากต้องการดูรายละเอียดเพิ่มเติม</p>
+                    <embed src="./Asset Management and Maintenance System.pdf" type="application/pdf" width="100%" height="500px" title="ดูเอกสาร PDF">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section id="contact" class="py-20 px-6 md:px-12 bg-gray-900">
     <div class="max-w-screen-lg mx-auto text-center">
-        <h2 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400">Contact Me</h2>
-        <p class="mt-4 text-lg text-gray-400 glow-text">Socials</p>
+        <h2 class="text-4xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-pink-500 to-blue-400 mb-8">
+            Contact Me
+        </h2>
+        <p class="mt-4 text-lg text-gray-400 glow-text">Get in Touch</p> <br>
 
-        <!-- Social Media Links with Hover Effects -->
-        <div class="mt-8 grid grid-cols-2 md:grid-cols-4 gap-8 justify-items-center">
-            
-            <!-- Facebook -->
-            <a href="https://www.facebook.com/share/19kA533d5Z/?mibextid=wwXIfr" target="_blank" class="group flex items-center justify-center w-20 h-20 bg-blue-600 rounded-full hover:bg-blue-700 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl">
-                <i class="fab fa-facebook-f text-white text-2xl group-hover:scale-125 transition-all duration-300"></i>
-            </a>
-            
-            <!-- Instagram -->
-            <a href="https://www.instagram.com/arun_axn16?igsh=MTViYzBicmhnNnpubg%3D%3D&utm_source=qr" target="_blank" class="group flex items-center justify-center w-20 h-20 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full hover:bg-gradient-to-l hover:from-purple-600 hover:to-pink-600 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl">
-                <i class="fab fa-instagram text-white text-2xl group-hover:scale-125 transition-all duration-300"></i>
-            </a>
-
-            <!-- GitHub -->
-            <a href="https://github.com/thanapong160346" target="_blank" class="group flex items-center justify-center w-20 h-20 bg-gray-800 rounded-full hover:bg-gray-900 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl">
-                <i class="fab fa-github text-white text-2xl group-hover:scale-125 transition-all duration-300"></i>
+        <div class="flex justify-center space-x-8">
+            <!-- Email Link -->
+            <a href="mailto:YOUR_EMAIL@example.com" target="_blank" rel="noopener noreferrer" class="group flex items-center space-x-4 w-50 h-20 max-w-xs rounded-2xl  from-gray-800 to-gray-700 p-4 transition-all duration-300 transform hover:scale-105 hover:bg-gradient-to-tr hover:from-[#0f2027] hover:via-[#203a43] hover:to-[#2c5364] hover:shadow-xl" aria-label="Visit Email">
+                <div class="flex h-12 w-12 items-center justify-center rounded-full bg-gray-600 transition-all duration-300 group-hover:bg-gray-400 group-hover:animate-bounce">
+                    <i class="fas fa-envelope text-4xl text-gray-200 hover:text-white"></i>
+                </div>
+                <span class="font-semibold text-red-300 transition-colors duration-300 group-hover:text-white group-hover:underline decoration-red-200 underline-offset-4">
+                    Thanapong24471@gmail.com
+                </span>
             </a>
 
-            <!-- LINE -->
-            <a href="https://line.me/ti/p/u-XJyjJ7GA" target="_blank" class="group flex items-center justify-center w-20 h-20 bg-green-500 rounded-full hover:bg-green-600 transition-all duration-300 transform hover:scale-110 hover:shadow-2xl">
-                <i class="fab fa-line text-white text-2xl group-hover:scale-125 transition-all duration-300"></i>
+            <!-- Phone Number Link -->
+            <a href="tel:+1234567890" class="group flex items-center space-x-4 w-auto max-w-md rounded-2xl  from-gray-800 to-gray-700 p-4 transition-all duration-300 transform hover:scale-105 hover:bg-gradient-to-tr hover:from-[#0f2027] hover:via-[#203a43] hover:to-[#2c5364] hover:shadow-xl">
+                <div class="flex h-12 w-12 items-center justify-center rounded-full bg-gray-600 transition-all duration-300 group-hover:bg-gray-400 group-hover:animate-bounce">
+                    <i class="fas fa-phone-alt text-4xl text-blue-500 hover:text-white"></i>
+                </div>
+                <span class="font-semibold text-blue-400 transition-colors duration-300 group-hover:text-blue-300 group-hover:underline decoration-blue-200 underline-offset-4">
+                    0970319316
+                </span>
             </a>
 
+            <!-- GitHub Link -->
+            <a href="https://github.com/thanapong160346" target="_blank" rel="noopener noreferrer" class="group flex items-center space-x-4 w-50 h-20 max-w-xs rounded-2xl  from-gray-800 to-gray-700 p-4 transition-all duration-300 transform hover:scale-105 hover:bg-gradient-to-tr hover:from-[#0f2027] hover:via-[#203a43] hover:to-[#2c5364] hover:shadow-xl" aria-label="Visit GitHub">
+                <div class="flex h-12 w-12 items-center justify-center rounded-full bg-gray-600 transition-all duration-300 group-hover:bg-gray-400 group-hover:animate-bounce">
+                    <i class="fab fa-github text-4xl text-gray-200 hover:text-white"></i>
+                </div>
+                <span class="font-semibold text-gray-200 transition-colors duration-300 group-hover:text-white group-hover:underline decoration-2 decoration-teal-400 underline-offset-4">
+                    GitHub
+                </span>
+            </a>
+
+            <!-- Line Link -->
+            <a href="https://line.me/ti/p/u-XJyjJ7GA" target="_blank" rel="noopener noreferrer" class="group flex items-center space-x-4 w-50 h-20 max-w-xs rounded-2xl  from-gray-800 to-gray-700 p-4 transition-all duration-300 transform hover:scale-105 hover:bg-gradient-to-tr hover:from-[#0f2027] hover:via-[#203a43] hover:to-[#2c5364] hover:shadow-xl" aria-label="Contact on LINE">
+                <div class="flex h-12 w-12 items-center justify-center rounded-full bg-green-500 transition-all duration-300 group-hover:bg-green-300 group-hover:animate-ping">
+                    <i class="fab fa-line text-white text-2xl group-hover:scale-125 transition-all duration-300"></i>
+                </div>
+                <span class="font-semibold text-green-300 transition-colors duration-300 group-hover:text-white group-hover:underline decoration-green-200 underline-offset-4">
+                    Line
+                </span>
+            </a>
         </div>
     </div>
 </section>
@@ -239,15 +465,12 @@
 
 
 <script>
-    // JavaScript to Toggle Show More Info
     const showMoreBtn = document.getElementById('showMoreBtn');
     const additionalInfo = document.getElementById('additionalInfo');
 
     showMoreBtn.addEventListener('click', () => {
-        // Toggle the visibility of additional information
         additionalInfo.classList.toggle('hidden');
 
-        // Change the arrow direction based on the visibility
         if (additionalInfo.classList.contains('hidden')) {
             showMoreBtn.innerHTML = '<i class="fas fa-chevron-down"></i>';
         } else {
@@ -256,6 +479,30 @@
     });
 </script>
 
+<script>
+    function toggleInfo(infoId) {
+    const infoElement = document.getElementById(infoId);
+    if (infoElement.classList.contains('hidden')) {
+        infoElement.classList.remove('hidden');
+    } else {
+        infoElement.classList.add('hidden');
+    }
+}
+
+</script>
+
+<script>
+function toggleInfo(projectId) {
+    const projectInfo = document.getElementById(projectId);
+    const isHidden = projectInfo.classList.contains('hidden');
+    if (isHidden) {
+        projectInfo.classList.remove('hidden');
+        projectInfo.classList.add('transition-all'); 
+    } else {
+        projectInfo.classList.add('hidden');
+    }
+}
+</script>
 
 </body>
 </html>
