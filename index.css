@@ -1,5 +1,4 @@
 /* manu */
-/* Animation for glow effect on hover */
 @keyframes glow {
     0% {
         text-shadow: 0 0 10px rgba(0, 255, 255, 0.8), 0 0 20px rgba(0, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 1);
@@ -15,13 +14,8 @@
 /* manu */
 
 
-
-
-
-
 /* Aboume */
 
-/* Animation for Fade-In Effect */
 @keyframes fade-in {
     0% {
         opacity: 0;
@@ -35,7 +29,6 @@
     animation: fade-in 1.5s ease-in-out;
 }
 
-/* Animation for Slide-In Effect */
 @keyframes slide-in-left {
     0% {
         transform: translateX(-100%);
@@ -51,7 +44,6 @@
     animation: slide-in-left 1s ease-out;
 }
 
-/* Animation for Zoom-In Effect */
 @keyframes zoom-in {
     0% {
         transform: scale(0.5);
@@ -67,7 +59,6 @@
     animation: zoom-in 1s ease-out;
 }
 
-/* Glowing Box Effect */
 @keyframes glow-box {
     0% {
         box-shadow: 0 0 10px rgba(0, 255, 255, 0.5), 0 0 20px rgba(0, 255, 255, 0.4), 0 0 30px rgba(0, 255, 255, 0.3);
@@ -76,8 +67,6 @@
         box-shadow: 0 0 20px rgba(0, 255, 255, 0.7), 0 0 40px rgba(0, 255, 255, 0.6), 0 0 60px rgba(0, 255, 255, 0.5);
     }
 }
-
-/* Apply glow effect on hover */
 .glow-box:hover {
     animation: glow-box 1.5s ease-in-out infinite alternate;
 }
@@ -89,13 +78,11 @@
 
 /* contact */
 
-/* Custom CSS for glowing text effect */
 .glow-text {
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8), 0 0 20px rgba(255, 255, 255, 0.6), 0 0 30px rgba(0, 255, 255, 0.8), 0 0 40px rgba(0, 255, 255, 1);
     animation: glow-animation 1.5s ease-in-out infinite alternate;
 }
 
-/* Animation for glowing effect */
 @keyframes glow-animation {
     0% {
         text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 10px rgba(255, 255, 255, 0.6), 0 0 15px rgba(0, 255, 255, 0.8), 0 0 20px rgba(0, 255, 255, 1);
@@ -105,3 +92,80 @@
     }
 }
 /* contact */
+
+
+/*skill*/
+@layer utilities {
+    .hover\:shadow-glow:hover {
+        box-shadow: 0 0 15px rgba(0, 255, 255, 0.8), 0 0 30px rgba(0, 255, 255, 0.6), 0 0 45px rgba(0, 255, 255, 0.8);
+    }
+}
+
+/*skill*/
+
+
+
+/* Education*/
+.hidden {
+    display: none;
+}
+
+.group:hover {
+    box-shadow: 0 4px 8px rgba(0, 255, 255, 0.4);
+    transform: scale(1.05);
+}
+
+.group:hover .border-cyan-500 {
+    border-color: rgba(0, 255, 255, 0.7);
+}
+
+.group:hover .text-indigo-300 {
+    color: rgba(0, 255, 255, 0.7);
+}
+
+.group:hover .hover:bg-gradient-to-r {
+    background: linear-gradient(to right, rgba(0, 255, 255, 0.7), rgba(0, 0, 255, 0.7));
+}
+
+.group:hover .group-hover\:text-indigo-300 {
+    color: rgba(0, 255, 255, 0.7);
+}
+
+/* Education*/
+
+
+/*Project*/
+.bg-gray-700:hover {
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.6), 0 0 20px rgba(0, 255, 255, 0.4);
+    border-color: #00bcd4; 
+}
+
+button:focus {
+    outline: none;
+}
+
+.transform {
+    transition: transform 0.3s ease;
+}
+
+button:hover {
+    color: #00bcd4; 
+}
+
+@keyframes slide-in {
+    0% {
+        transform: translateY(-20px);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.transition-all {
+    animation: slide-in 0.5s ease-out;
+}
+
+
+/*Project*/
